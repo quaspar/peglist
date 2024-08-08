@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #222;
+}
+
+ul {
+    list-style-type: none; /* Hides the bullets */
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 25%; /* Make the images half the size */
+}
+
+span {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 5em; /* Increase the text size */
+    display: inline-block;
+    height: auto; /* Adjust height automatically */
+}
+
+span.word {
+    width: 250px; /* Adjust the width as needed */
+    display: inline-block;
+}
